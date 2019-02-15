@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/flower2.ico</file>
+        <file>images/twitter.png</file>
+    </qresource>
+</RCC>

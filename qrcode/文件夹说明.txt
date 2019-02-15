@@ -1,0 +1,3 @@
+libpng：这是从www.libpng.org/pub/png/libpng.html网站下载的libpng-1.6.2.1源码包中的头文件
+zlib：这是从http://www.zlib.net/网站下载的zlib-1.2.8源码包中的头文件
+qrencode-3.4.4：qrencode-3.4.4开源库源码包中的头文件

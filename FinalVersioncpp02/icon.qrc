@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/baocunliaotian.jpg</file>
+        <file>images/jiacu.jpg</file>
+        <file>images/qingchu.jpg</file>
+        <file>images/qingxie.jpg</file>
+        <file>images/xiahuaxian.jpg</file>
+        <file>images/yanse.jpg</file>
+        <file>images/chuansong.jpg</file>
+        <file>images/biaoqing.jpg</file>
+        <file>images/tupian.jpg</file>
+    </qresource>
+</RCC>

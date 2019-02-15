@@ -1,0 +1,1 @@
+cascade="data/haarcascades/haarcascade_frontalface_alt.xml"  scale=1.3  lena.jpg

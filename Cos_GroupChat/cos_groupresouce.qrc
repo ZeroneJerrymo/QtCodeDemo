@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/resource">
+        <file>messageBox.html</file>
+        <file>myHead.png</file>
+        <file>otherHead.png</file>
+        <file>1.jpg</file>
+        <file>qwebchannel.js</file>
+    </qresource>
+</RCC>

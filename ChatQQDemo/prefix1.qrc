@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/resource">
+        <file>1.jpg</file>
+        <file>00393[24x24x8BPP].gif</file>
+        <file>messageBox.html</file>
+        <file>qwebchannel.js</file>
+        <file>myHead.png</file>
+        <file>otherHead.png</file>
+    </qresource>
+</RCC>

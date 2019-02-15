@@ -1,0 +1,17 @@
+#ifndef CCOLORBTN_H
+#define CCOLORBTN_H
+
+#include <QWidget>
+
+class CColorBtn : public QWidget
+{
+    Q_OBJECT
+public:
+    explicit CColorBtn(QWidget *parent = nullptr);
+
+signals:
+
+public slots:
+};
+
+#endif // CCOLORBTN_H

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ipmsg", "IPMSG.vcxproj", "{8C37662F-6A02-4707-9D36-963AC222A846}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		English|x86 = English|x86
+		Installer|x86 = Installer|x86
+		InstallerDbg|x86 = InstallerDbg|x86
+		InstallerEng|x86 = InstallerEng|x86
+		Japanese|x86 = Japanese|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C37662F-6A02-4707-9D36-963AC222A846}.Debug|x86.ActiveCfg = Debug|Win32
+		{8C37662F-6A02-4707-9D36-963AC222A846}.Debug|x86.Build.0 = Debug|Win32
+		{8C37662F-6A02-4707-9D36-963AC222A846}.English|x86.ActiveCfg = English|Win32
+		{8C37662F-6A02-4707-9D36-963AC222A846}.English|x86.Build.0 = English|Win32
+		{8C37662F-6A02-4707-9D36-963AC222A846}.Installer|x86.ActiveCfg = Installer|Win32
+		{8C37662F-6A02-4707-9D36-963AC222A846}.Installer|x86.Build.0 = Installer|Win32
+		{8C37662F-6A02-4707-9D36-963AC222A846}.InstallerDbg|x86.ActiveCfg = InstallerDbg|Win32
+		{8C37662F-6A02-4707-9D36-963AC222A846}.InstallerDbg|x86.Build.0 = InstallerDbg|Win32
+		{8C37662F-6A02-4707-9D36-963AC222A846}.InstallerEng|x86.ActiveCfg = InstallerEng|Win32
+		{8C37662F-6A02-4707-9D36-963AC222A846}.InstallerEng|x86.Build.0 = InstallerEng|Win32
+		{8C37662F-6A02-4707-9D36-963AC222A846}.Japanese|x86.ActiveCfg = Japanese|Win32
+		{8C37662F-6A02-4707-9D36-963AC222A846}.Japanese|x86.Build.0 = Japanese|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

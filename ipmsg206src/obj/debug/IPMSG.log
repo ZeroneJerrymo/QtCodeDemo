@@ -1,0 +1,335 @@
+﻿  share.cpp
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(246): error C2011: “_CRYPTPROTECT_PROMPTSTRUCT”:“struct”类型重定义
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\dpapi.h(86): note: 参见“_CRYPTPROTECT_PROMPTSTRUCT”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(420): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(606): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(607): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(827): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\msgstr.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\workspace\demo\ipmsg206src\src\msgstr.h(209): error C2001: 常量中有换行符
+src\share.cpp(216): error C2065: “cnt”: 未声明的标识符
+src\share.cpp(218): error C2065: “cnt”: 未声明的标识符
+src\share.cpp(218): error C2227: “->Attr”的左边必须指向类/结构/联合/泛型类型
+src\share.cpp(220): error C2065: “cnt”: 未声明的标识符
+src\share.cpp(220): error C2227: “->Size”的左边必须指向类/结构/联合/泛型类型
+src\share.cpp(394): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+src\share.cpp(815): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+  cfg.cpp
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(246): error C2011: “_CRYPTPROTECT_PROMPTSTRUCT”:“struct”类型重定义
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\dpapi.h(86): note: 参见“_CRYPTPROTECT_PROMPTSTRUCT”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(420): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(606): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(607): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(827): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\msgstr.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\workspace\demo\ipmsg206src\src\msgstr.h(209): error C2001: 常量中有换行符
+Src\cfg.cpp(512): error C2065: “cnt”: 未声明的标识符
+Src\cfg.cpp(515): error C2065: “cnt”: 未声明的标识符
+Src\cfg.cpp(515): error C2660: “strncpyz”: 函数不接受 2 个参数
+Src\cfg.cpp(522): error C2065: “cnt”: 未声明的标识符
+Src\cfg.cpp(528): error C2065: “obj”: 未声明的标识符
+Src\cfg.cpp(530): error C2065: “obj”: 未声明的标识符
+Src\cfg.cpp(531): error C2065: “obj”: 未声明的标识符
+Src\cfg.cpp(533): error C2065: “obj”: 未声明的标识符
+Src\cfg.cpp(533): error C2227: “->protocol”的左边必须指向类/结构/联合/泛型类型
+  Src\cfg.cpp(533): note: 类型是“unknown-type”
+Src\cfg.cpp(533): error C2660: “strncpyz”: 函数不接受 2 个参数
+Src\cfg.cpp(534): error C2065: “obj”: 未声明的标识符
+Src\cfg.cpp(534): error C2227: “->program”的左边必须指向类/结构/联合/泛型类型
+  Src\cfg.cpp(534): note: 类型是“unknown-type”
+Src\cfg.cpp(534): error C2660: “TRegistry::GetStr”: 函数不接受 1 个参数
+Src\cfg.cpp(585): error C2664: “BOOL TRegistry::GetLong(LPCSTR,long *)”: 无法将参数 2 从“time_t *”转换为“long *”
+  Src\cfg.cpp(585): note: 与指向的类型无关；转换要求 reinterpret_cast、C 样式转换或函数样式转换
+Src\cfg.cpp(223): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\cfg.cpp(267): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\cfg.cpp(318): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\cfg.cpp(365): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Src\cfg.cpp(525): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+Src\cfg.cpp(869): warning C4244: “参数”: 从“time_t”转换到“long”，可能丢失数据
+Src\cfg.cpp(671): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+  Setupdlg.cpp
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(246): error C2011: “_CRYPTPROTECT_PROMPTSTRUCT”:“struct”类型重定义
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\dpapi.h(86): note: 参见“_CRYPTPROTECT_PROMPTSTRUCT”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(420): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(606): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(607): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(827): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\msgstr.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\workspace\demo\ipmsg206src\src\msgstr.h(209): error C2001: 常量中有换行符
+Src\Setupdlg.cpp(74): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+  Senddlg.cpp
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(246): error C2011: “_CRYPTPROTECT_PROMPTSTRUCT”:“struct”类型重定义
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\dpapi.h(86): note: 参见“_CRYPTPROTECT_PROMPTSTRUCT”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(420): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(606): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(607): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(827): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\msgstr.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\workspace\demo\ipmsg206src\src\msgstr.h(209): error C2001: 常量中有换行符
+Src\Senddlg.cpp(108): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\Senddlg.cpp(361): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Src\Senddlg.cpp(702): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\Senddlg.cpp(745): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\Senddlg.cpp(845): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+Src\Senddlg.cpp(848): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+Src\Senddlg.cpp(884): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Src\Senddlg.cpp(891): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(346): note: 参见“strncpy”的声明
+Src\Senddlg.cpp(892): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Src\Senddlg.cpp(1097): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+Src\Senddlg.cpp(1260): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Src\Senddlg.cpp(1540): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+  Recvdlg.cpp
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(246): error C2011: “_CRYPTPROTECT_PROMPTSTRUCT”:“struct”类型重定义
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\dpapi.h(86): note: 参见“_CRYPTPROTECT_PROMPTSTRUCT”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(420): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(606): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(607): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(827): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\msgstr.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\workspace\demo\ipmsg206src\src\msgstr.h(209): error C2001: 常量中有换行符
+Src\Recvdlg.cpp(169): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+Src\Recvdlg.cpp(189): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+Src\Recvdlg.cpp(195): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+Src\Recvdlg.cpp(212): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\Recvdlg.cpp(478): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\Recvdlg.cpp(522): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\Recvdlg.cpp(688): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\Recvdlg.cpp(825): error C3867: “TRecvDlg::RecvDirFile”: 非标准语法；请使用 "&" 来创建指向成员的指针
+Src\Recvdlg.cpp(825): error C3867: “TRecvDlg::RecvFile”: 非标准语法；请使用 "&" 来创建指向成员的指针
+  Msgmng.cpp
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(246): error C2011: “_CRYPTPROTECT_PROMPTSTRUCT”:“struct”类型重定义
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\dpapi.h(86): note: 参见“_CRYPTPROTECT_PROMPTSTRUCT”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(420): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(606): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(607): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(827): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\msgstr.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\workspace\demo\ipmsg206src\src\msgstr.h(209): error C2001: 常量中有换行符
+Src\Msgmng.cpp(21): warning C4244: “=”: 从“time_t”转换到“ULONG”，可能丢失数据
+Src\Msgmng.cpp(42): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Src\Msgmng.cpp(126): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\Msgmng.cpp(242): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+  Miscdlg.cpp
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(246): error C2011: “_CRYPTPROTECT_PROMPTSTRUCT”:“struct”类型重定义
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\dpapi.h(86): note: 参见“_CRYPTPROTECT_PROMPTSTRUCT”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(420): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(606): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(607): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(827): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\msgstr.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\workspace\demo\ipmsg206src\src\msgstr.h(209): error C2001: 常量中有换行符
+Src\Miscdlg.cpp(462): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Src\Miscdlg.cpp(512): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Src\Miscdlg.cpp(513): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Src\Miscdlg.cpp(527): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Src\Miscdlg.cpp(528): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Src\Miscdlg.cpp(743): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Src\Miscdlg.cpp(744): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Src\Miscdlg.cpp(765): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Src\Miscdlg.cpp(767): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Src\Miscdlg.cpp(944): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+Src\Miscdlg.cpp(1011): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Src\Miscdlg.cpp(1073): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+Src\Miscdlg.cpp(1076): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+Src\Miscdlg.cpp(1115): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+Src\Miscdlg.cpp(1117): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+Src\Miscdlg.cpp(1202): error C2065: “kind”: 未声明的标识符
+Src\Miscdlg.cpp(1203): error C2065: “kind”: 未声明的标识符
+Src\Miscdlg.cpp(1205): error C2065: “kind”: 未声明的标识符
+Src\Miscdlg.cpp(1205): error C2660: “memmove”: 函数不接受 1 个参数
+Src\Miscdlg.cpp(1239): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+Src\Miscdlg.cpp(1493): error C2065: “p”: 未声明的标识符
+Src\Miscdlg.cpp(1672): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+  Mainwin.cpp
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(246): error C2011: “_CRYPTPROTECT_PROMPTSTRUCT”:“struct”类型重定义
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\dpapi.h(86): note: 参见“_CRYPTPROTECT_PROMPTSTRUCT”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(420): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(606): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(607): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(827): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\msgstr.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\workspace\demo\ipmsg206src\src\msgstr.h(209): error C2001: 常量中有换行符
+Src\Mainwin.cpp(94): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\Mainwin.cpp(140): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\Mainwin.cpp(308): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\Mainwin.cpp(346): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\Mainwin.cpp(396): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\Mainwin.cpp(422): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\Mainwin.cpp(879): error C3867: “TMainWin::SendDirFile”: 非标准语法；请使用 "&" 来创建指向成员的指针
+Src\Mainwin.cpp(879): error C3867: “TMainWin::SendFile”: 非标准语法；请使用 "&" 来创建指向成员的指针
+Src\Mainwin.cpp(1371): error C2065: “sendDlg”: 未声明的标识符
+Src\Mainwin.cpp(1416): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\Mainwin.cpp(1615): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Src\Mainwin.cpp(1879): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\Mainwin.cpp(1940): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int
+Src\Mainwin.cpp(1953): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\Mainwin.cpp(2053): error C2065: “host_cnt”: 未声明的标识符
+Src\Mainwin.cpp(2055): error C2065: “host_cnt”: 未声明的标识符
+Src\Mainwin.cpp(2165): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+Src\Mainwin.cpp(2465): warning C4838: 从“int”转换到“DWORD”需要收缩转换
+  Logmng.cpp
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(246): error C2011: “_CRYPTPROTECT_PROMPTSTRUCT”:“struct”类型重定义
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\dpapi.h(86): note: 参见“_CRYPTPROTECT_PROMPTSTRUCT”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(420): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(606): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(607): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(827): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\msgstr.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\workspace\demo\ipmsg206src\src\msgstr.h(209): error C2001: 常量中有换行符
+Src\Logmng.cpp(49): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+Src\Logmng.cpp(64): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+Src\Logmng.cpp(65): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+Src\Logmng.cpp(68): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+Src\Logmng.cpp(71): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+Src\Logmng.cpp(74): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+Src\Logmng.cpp(77): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+Src\Logmng.cpp(82): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+Src\Logmng.cpp(84): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+Src\Logmng.cpp(89): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+Src\Logmng.cpp(98): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+Src\Logmng.cpp(111): error C2065: “bit”: 未声明的标识符
+  Logdlg.cpp
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(246): error C2011: “_CRYPTPROTECT_PROMPTSTRUCT”:“struct”类型重定义
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\dpapi.h(86): note: 参见“_CRYPTPROTECT_PROMPTSTRUCT”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(420): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(606): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(607): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(827): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\msgstr.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+d:\workspace\demo\ipmsg206src\src\msgstr.h(209): error C2001: 常量中有换行符
+Src\Logdlg.cpp(129): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+Src\Logdlg.cpp(130): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+  Ipmsg.cpp
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(246): error C2011: “_CRYPTPROTECT_PROMPTSTRUCT”:“struct”类型重定义
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\dpapi.h(86): note: 参见“_CRYPTPROTECT_PROMPTSTRUCT”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(420): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(606): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(607): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\workspace\demo\ipmsg206src\src\ipmsg.h(827): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: 参见“strdup”的声明
+Src\Ipmsg.cpp(44): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+Src\Ipmsg.cpp(49): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+Src\Ipmsg.cpp(55): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+Src\Ipmsg.cpp(57): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: 参见“stricmp”的声明
+Src\Ipmsg.cpp(104): warning C4996: 'GetVersion': 被声明为已否决
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: 参见“GetVersion”的声明
+  正在生成代码...

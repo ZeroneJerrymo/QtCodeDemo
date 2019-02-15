@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                        <script type="text/javascript" src="D:/workSpace/Demo/build-Cos_GroupChat-Desktop_Qt_5_9_6_MSVC2015_32bit-Debug/debug/js/jquery-1.4.2.min.js"></script>
+                        <script type="text/javascript" src="D:/workSpace/Demo/build-Cos_GroupChat-Desktop_Qt_5_9_6_MSVC2015_32bit-Debug/debug/js/jquery.min.js"></script>
+
+        <script type="text/javascript" src="./qwebchannel.js"></script>
+        <script type="text/javascript">
+            //BEGIN SETUP
+            function output(message)
+            {
+                var output = document.getElementById("output");
+                output.innerHTML = output.innerHTML + message + "\n";
+            }
+            window.onload = function() {
+
+            output("setting up QWebChannel.");
+            new QWebChannel(qt.webChannelTransport, function(channel) {
+                // make dialog object accessible globally
+                var content = channel.objects.content;
+
+$(function(){
+    var html='';
+    html +='<div id="qj_box" class="widget" >';
+    for(var i=0;i<10;i++){
+      html += '<div id="box'+i+'" class="box" >'+i+'</div>';
+    }
+    html +='</div>';
+
+
+
+    // 判断鼠标点击是由那个键触发的，1是左键，2是滚轮键，3是右键
+    $(document).on("mousedown",".triangle-left",function(event){//修改成这样的写法
+          if(event.which==3){
+            var itemId=$(this).attr('id');
+            showMenu(itemId);
+          }else{
+            closeMenu();
+          }
+    });
+    $(document).on("mousedown",".triangle-right",function(event){//修改成这样的写法
+          if(event.which==3){
+            var itemId=$(this).attr('id');
+            showMenu(itemId);
+          }else{
+            closeMenu();
+          }
+    });
+
+    // 左键点击关闭自定义菜单
+    $(document).on('click',function(){
+      closeMenu();
+    });
+  });
+
+  // 屏蔽浏览器自带的右键
+  document.oncontextmenu=function(event){
+    if($(event.target).attr('class')=='rk_menubox'){
+      return false;
+    }
+  };
+
+// 弹出菜单代码
+function showMenu(itemId){
+var mhtml='<div id="rk_menubox" class="rk_menubox">' +
+'<div class="rk_menuitem" onclick="closeItem('+itemId+',1)">撤回消息</div> ' +
+'<div class="rk_menuitem" onclick="closeItem('+itemId+',2)">刷新</div> ' +
+'<div class="rk_menuitem" onclick="closeItem('+itemId+',3)">关闭所有标签</div>'+
+'</div>';
+
+if($('#rk_menubox')[0]==null){
+$('body').append(mhtml);
+}
+
+var evt=window.event || arguments[0];
+
+// 获取鼠标右键按下后的位置,据此定义菜单显示的位置
+var rightedge=$('#rk_menubox').width()+evt.clientX;
+
+// 判断弹出的菜单是否有溢出浏览器窗口的宽度
+if(rightedge>$(window).width()){
+var _left=evt.clientX-$('#rk_menubox').width();
+$('#rk_menubox').css({top:evt.clientY+'px',left:_left+'px'});
+}else{
+$('#rk_menubox').css({top:evt.clientY+'px',left:evt.clientX+'px'});
+}
+}
+
+function closeItem(tag,opt){
+var mhtml='<div id=rece1 class="message">'+
+        '<q class="divotherHead"></q><q id=rece11text class="triangle-left left">wwwwww</q>'+
+        '</div>';
+var tagid=$(tag).attr('id');
+if(opt==1){
+$('div[id='+tagid+']').parent().remove();
+}else if(opt==2){
+$('body').append(mhtml);
+}else if(opt==3){
+}
+}
+
+function closeMenu(){
+if($('#rk_menubox')[0]!=null){
+$('#rk_menubox').remove();
+}
+}
+
+
+                document.getElementById("send").onclick = function() {
+                    var input = document.getElementById("input");
+                    var text = input.value;
+                    if (!text) {
+                        return;
+                    }
+
+                    output("Sent message: " + text);
+                    input.value = "";
+                    content.receiveText(text);
+                }
+
+                content.sendText.connect(function(message) {
+                    output("Received message: " + message);
+                });
+
+                content.receiveText("Client connected, ready to send/receive messages!");
+                output("Connected to WebChannel, ready to send/receive messages!");
+            });
+            }
+
+            //END SETUP
+        </script>
+        <style type="text/css">
+            html {
+                height: 100%;
+                width: 100%;
+            }
+            #input {
+                width: 400px;
+                margin: 0 10px 0 0;
+            }
+            #send {
+                width: 90px;
+                margin: 0;
+            }
+            #output {
+                width: 500px;
+                height: 300px;
+            }
+            .rk_menubox{width:100px;border:1px solid #ddd;position:absolute;z-index:999;background:#fff;}
+            .rk_menuitem{line-height:20px;cursor:pointer;padding:0px 5px;font-size: 14px;}
+             .rk_menuitem:hover{background:#f4f4f4;}
+            .message{overflow:hidden;}
+            .widget{display:inline-block;background:#ff9900;}
+            .box{width:50px;height:50px;background:#00b7ee;margin:5px;float:left;}
+            /*显示对方的头像*/
+            .divotherHead{
+                position: relative;
+                float: left;
+                margin:1px 0px 0px 0px;
+                left: 1px;
+                border-radius: 5px;
+            }
+            .triangle-left{
+                float:left;
+                max-width:70%;
+                border:1px solid #f2f2f2;
+                border-radius:5px;
+                padding:4px;
+                background:#f2f2f2;
+                position:relative;
+                display:inline-block;
+                margin:5px 0px 5px 7px;
+                word-wrap: break-word;
+                color:  black;
+                font-family: "微软雅黑", "san-serif";
+                font-size: 14px;
+                display: inline;
+            }
+
+            .triangle-left:before{
+                position:absolute;
+                content:"";
+                display:block;
+            }
+            /*实现对方消息的那个小三角，小三角的实现其实是将一个正方形对角线划分为四个小三角，其余的三个设置颜色不可见，只将对自己有用的那一个留下来*/
+            .triangle-left.left:before{
+                border-color:rgba(0, 0, 0, 0) #f2f2f2 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+                border-width:5px 5px 5px 0;
+                border-style:solid;
+                bottom:auto;
+                left:-5px;
+                top:8px;
+            }
+            .triangle-left.left:after{
+                border-color:rgba(0, 0, 0, 0) #f2f2f2 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+                border-width:5px 5px 5px 0;
+                border-style:solid;
+                bottom:auto;
+                left:-5px;
+                top:8px;
+            }
+        </style>
+    </head>
+    <body>
+    <div id=send2 style='overflow:hidden;' class='message'><div class='divotherhead'> </div><div id=send2_head class='triangle-left left'>你好</div></div>
+        <textarea id="output">
+        </textarea><br />
+        <input id="input" /><input type="submit" id="send" value="Send" onclick="javascript:click();" />
+    </body>
+</html>

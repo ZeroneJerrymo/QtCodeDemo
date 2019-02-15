@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>testUiLib.pro.user</file>
+    </qresource>
+</RCC>
